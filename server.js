@@ -2,7 +2,8 @@ var express = require('express');
 var app = express();
 var port = process.env.PORT || 2000;
 
-app.use(express.static('public'));                 // set the static files location /public/img will be /img for users
+app.use(express.static('public')); // set the static files location /public/img will be /img for users
+app.use('/blog', express.static('blog/public'));
 app.set("views", "src/views");
 app.set("view engine", "ejs");
 
