@@ -18,7 +18,8 @@
   "homepage": "https://github.com/maltelaska/mltlsk#readme",
   "dependencies": {
     "ejs": "^2.5.6",
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "uglify-js": "^3.0.23"
   },
   "devDependencies": {
     "bower": "^1.8.0"
