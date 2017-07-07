@@ -1,0 +1,21 @@
+{
+  "name": "mltlsk",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Malte Laska"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/maltelaska/mltlsk",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "angular": "^1.6.5"
+  }
+}
